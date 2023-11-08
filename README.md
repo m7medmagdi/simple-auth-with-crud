@@ -19,11 +19,7 @@ This project is a simple Spring Boot application that demonstrates how to create
 ## Table of Contents
 
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+
 
 ## Getting Started
 
