@@ -32,59 +32,13 @@ To get started with this project, follow these steps:
 1. **Clone this repository to your local machine**:
 
     ```shell
-    git clone https://github.com/yourusername/spring-boot-mysql-crud.git
+    git clone https://github.com/m7medmagdi/spring-boot-mysql-crud.git
     ```
 
-2. **Configure the MySQL database** by updating the `application.yml` file with your database credentials and schema details.
+2. **Configure the MySQL database** by updating the `application.properties` file with your database credentials and schema details.
 
 3. **Build and run the Spring Boot application** using your preferred IDE or the command line.
 
 4. **Access the API** at `http://localhost:8080/api/users`, and use Basic Authentication to secure the endpoints.
 
 5. **Explore and customize the code** to fit your specific requirements.
-
-## Usage
-
-<h1>API Documentation</h1>
-
-    <h2>Create User</h2>
-    <p><strong>Endpoint:</strong> <code>POST /api/users</code></p>
-    <p><strong>Description:</strong> Create a new user.</p>
-    <p><strong>Request Body:</strong></p>
-    <pre>
-    {
-      "name": "John Doe",
-      "email": "john.doe@example.com"
-    }
-    </pre>
-    <p><strong>Response:</strong></p>
-    <p><strong>Status Code:</strong> <code>201 Created</code></p>
-    <p><strong>Response Body:</strong></p>
-    <pre>
-    {
-      "id": 1,
-      "name": "John Doe",
-      "email": "john.doe@example.com"
-    }
-    </pre>
-
-    <h2>Get All Users</h2>
-    <p><strong>Endpoint:</strong> <code>GET /api/users</code></p>
-    <p><strong>Description:</strong> Retrieve a list of all users.</p>
-    <p><strong>Response:</strong></p>
-    <p><strong>Status Code:</strong> <code>200 OK</code></p>
-    <p><strong>Response Body:</strong></p>
-    <pre>
-    [
-      {
-        "id": 1,
-        "name": "John Doe",
-        "email": "john.doe@example.com"
-      },
-      {
-        "id": 2,
-        "name": "Alice Johnson",
-        "email": "alice.j@example.com"
-      }
-    ]
-    </pre>
