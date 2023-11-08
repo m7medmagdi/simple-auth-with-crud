@@ -45,7 +45,46 @@ To get started with this project, follow these steps:
 
 ## Usage
 
-Provide examples and instructions for how to use your application. You can include code snippets and usage scenarios to help users understand your project better.
+<h1>API Documentation</h1>
 
-```java
-// Example code snippet demonstrating how to use the API
+    <h2>Create User</h2>
+    <p><strong>Endpoint:</strong> <code>POST /api/users</code></p>
+    <p><strong>Description:</strong> Create a new user.</p>
+    <p><strong>Request Body:</strong></p>
+    <pre>
+    {
+      "name": "John Doe",
+      "email": "john.doe@example.com"
+    }
+    </pre>
+    <p><strong>Response:</strong></p>
+    <p><strong>Status Code:</strong> <code>201 Created</code></p>
+    <p><strong>Response Body:</strong></p>
+    <pre>
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com"
+    }
+    </pre>
+
+    <h2>Get All Users</h2>
+    <p><strong>Endpoint:</strong> <code>GET /api/users</code></p>
+    <p><strong>Description:</strong> Retrieve a list of all users.</p>
+    <p><strong>Response:</strong></p>
+    <p><strong>Status Code:</strong> <code>200 OK</code></p>
+    <p><strong>Response Body:</strong></p>
+    <pre>
+    [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john.doe@example.com"
+      },
+      {
+        "id": 2,
+        "name": "Alice Johnson",
+        "email": "alice.j@example.com"
+      }
+    ]
+    </pre>
